@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Merriweather', serif;
-    background-image: url(../img/patter0.1.jpg);
 }
 
 h1, h2, h3, h4{
@@ -10,15 +9,23 @@ h1, h2, h3, h4{
 }
 
 .jumbotron{
-    background-image: url('../img/main.jpg');
+    background-image: url('../img/jumbotron.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
     color: #ffffff;
 }
-span.text-uppercase{
-    color: red;
+span.text{
+    color:black;
+    position: absolute;
+    right: 79%;
+    font-size: 4rem;
 }
 .active{
     color: #27221d;
-    background-color:red;
+}
+.text-uppercase{
+    font-size: 10rem;
+    margin-top: -1%;
+    border-bottom:2px black solid;
+    
 }
