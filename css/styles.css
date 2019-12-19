@@ -14,6 +14,7 @@ h1, h2, h3, h4{
     height: 75vh;
     color: #ffffff;
 }
+
 span.text{
     color:black;
     position: absolute;
@@ -29,3 +30,91 @@ span.text{
     border-bottom:2px black solid;
     
 }
+.margin0-1{
+    margin-top: 40px;
+}
+.margin0-2{
+    margin-top: 20px;
+}
+.margin0-3{
+    margin-top: 100px;
+}
+.margin0-4{
+    margin-top:125px;
+}
+.headshot{
+    height: 30%;
+    width:30%;
+   
+}
+.gitlogo{
+    height: 50%;
+    width:50%;
+
+}
+.gitborder{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.border0-1{
+    border-top:2px black solid;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    position: relative; 
+    margin-bottom: 1%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+
+  
+  /* Instagram */
+  .fa-instagram {
+    background: #000000;
+    color: white;
+    position: absolute;
+    /* right: 50%; */
+    left: 3%;
+    top:25%;
+  }
+  
+ 
+  
+  /* Linkedin */
+  .fa-linkedin {
+    background: #000000;
+    color: white;
+    position: absolute;
+    /* right: 53%; */
+    left: 6%;
+    top: 25%;
+  }
